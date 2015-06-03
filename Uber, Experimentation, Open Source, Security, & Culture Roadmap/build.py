@@ -1,7 +1,7 @@
 import os
 from PyPDF2 import PdfFileReader, PdfFileMerger
 
-merged_file_name="merged_full.pdf"
+merged_file_name="MergedDeck.pdf"
 files_dir = "./" 
 if os.path.exists(merged_file_name):
 	os.remove(merged_file_name)
