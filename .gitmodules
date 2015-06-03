@@ -1,0 +1,3 @@
+[submodule "Deterministic Testing, Typesafe Config, Spreads v Probe, & Real-Time Event-Driven/Deterministc Testing/offbeet-utils"]
+	path = Deterministic Testing, Typesafe Config, Spreads v Probe, & Real-Time Event-Driven/Deterministc Testing/offbeet-utils
+	url = https://github.com/afalck/offbeet-utils
