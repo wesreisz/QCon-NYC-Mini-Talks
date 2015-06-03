@@ -2,7 +2,8 @@ import os
 from PyPDF2 import PdfFileReader, PdfFileMerger
 
 files_dir = "./" 
-os.remove("merged_full.pdf")
+if os.path.exists("merged_full.pdf"):
+	os.remove("merged_full.pdf")
 pdf_files = [f for f in os.listdir(files_dir) if f.endswith("pdf")]
 merger = PdfFileMerger()
 for filename in pdf_files:
